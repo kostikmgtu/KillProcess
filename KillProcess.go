@@ -40,7 +40,7 @@ func main() {
 
 func terminateUserSessions(username string) {
 	var cmd *exec.Cmd
-	var output []byte
+	//var output []byte
 	var err error
 
 	switch runtime.GOOS {
